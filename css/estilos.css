@@ -1,0 +1,219 @@
+.bg-cover {
+  height: 100vh !important;
+  background-image: url("../assets/fondo_1.jpg") !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  background-size: cover;
+}
+
+.bg-cover span {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.animacion-nav {
+  transition: all 0.7s;
+}
+
+.animacion-nav:hover {
+  transform: translateY(5px) scale(1.02);
+}
+
+.animacion-1 {
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.animacion-1:hover {
+  background-color: #123948;
+  box-shadow: 0px -8px 20px 0px #ed637d;
+  color: #fff;
+  transform: translateY(3px) scale(1.03);
+}
+
+.animacion-1:active {
+  transform: translateY(-1px);
+}
+
+.animacion-texto {
+  animation: text-focus-in 1.3s linear both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.bg-fondo-obras-2 {
+  background: linear-gradient(240deg, #5b2139 20%, #631a2f 49%, #630163 86%, #320254 94%);
+}
+
+.z-index-cover {
+  z-index: 2 !important;
+}
+
+.btn-fondo-2 {
+  color: #ffffff !important;
+  border-color: #ffffff !important;
+  border: 2px solid !important;
+  border-radius: 25px;
+}
+
+.btn-fondo-2:hover {
+  color: #fff !important;
+  background-color: #123948 !important;
+  border-color: #123948 !important;
+}
+
+.animacion-2 {
+  transition: all 0.5s;
+}
+
+.animacion-2:hover {
+  transform: scale(1.03);
+}
+
+.icon {
+  width: 30px;
+}
+
+.bg-fondo-obras {
+  background: linear-gradient(45deg, #5b2139 20%, #631a2f 49%, #630163 86%, #320254 94%);
+}
+
+.animacion-card {
+  width: 18rem;
+  background-image: linear-gradient(0deg, #d72c60 0%, #6563ed 46%, #6665e9 61%, #9ddd32 100%);
+  transition: all .3s;
+}
+
+.animacion-card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+.animacion-card .animacion-card2 {
+  width: 18rem;
+  background-color: #1a1a1a;
+  transition: all .2s;
+}
+
+.animacion-card .animacion-card2:hover {
+  transform: scale(0.98);
+}
+
+.shadow-text {
+  text-shadow: -5px 3px 10px #7f1936;
+}
+
+.boton button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.boton button.learn-more {
+  width: 12rem;
+  height: auto;
+}
+
+.boton button.learn-more .button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: white;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.boton button.learn-more .circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background-color: #123948;
+  border-radius: 1.625rem;
+}
+
+.boton button.learn-more .circle .icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.boton button.learn-more .circle .icon.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.boton button.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.29rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  transform: rotate(45deg);
+}
+
+.boton button:hover .circle {
+  width: 100%;
+}
+
+.boton button:hover .circle .icon.arrow {
+  background: #fff;
+  transform: translate(1rem, 0);
+}
+
+.boton button:hover .button-text {
+  color: #fff;
+}
+
+.bg-jumbotron {
+  background-color: #c3bcbf;
+}
+
+.bg-jumbotron-box {
+  background: radial-gradient(circle, #1e284e 27%, #111032 100%);
+}
+
+.bg-pinceles {
+  background-image: url("../assets/fondo_pinceles.jpg");
+  background-size: cover;
+  background-position: center;
+}
